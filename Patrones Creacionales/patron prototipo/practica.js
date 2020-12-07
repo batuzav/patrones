@@ -19,4 +19,4 @@ if(!String.prototype.trim) {
 }
 
 const y = "     HOLA MUNDO      ".trim();
-console.log('y', y);
+y.log();
