@@ -5,9 +5,9 @@ const module = {
         cache: true
     },
     setConfig: conf => {
-        module.config = conf
+        module.config = conf;
     },
     isCacheEnabled: () => {
-        console.log(module.config.cache ? "si" : "no")
+        console.log(module.config.cache ? "si" : "no");
     }
 }
