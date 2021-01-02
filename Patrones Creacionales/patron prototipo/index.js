@@ -11,3 +11,16 @@ class MiClase {
 
 const instancia = new MiClase(4, 6);
 console.log('instancia', instancia.__proto__);
+
+// objeto prototipo
+
+const perro = {
+    raza = "pastro alemám",
+    ladrar = function () {
+        console.log(`guau!, soy ${this.raza}`);
+    },
+}
+
+const killtro = Object.create(perro);
+
+killtro.ladrar();
